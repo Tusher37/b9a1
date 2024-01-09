@@ -392,3 +392,105 @@ header{
     margin-left: none;
     background: #F00;
 }
+
+/*  ##########   Footer   ########## */
+
+.foot-class{
+    background: #070211;
+    width: 1320px;
+    height: 609px;
+    margin: 20px 20px 20px 20px;
+}
+.address{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+.f-contract{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+.same-line img, .same-line p{
+    display: inline-block;
+}
+.line-same img, .line-same p{
+    display: inline-block;
+}
+.footer-div{
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 275px 50px 140px;
+    margin-bottom: 10px;
+}
+.footer-line {
+    height: 3px;
+    width: 80%;
+    background-color: #333; /* Line color */
+    margin: 10px auto; /* Center the line within the container */
+    position: relative;
+  }
+  .footer-line::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #3498db; /* Hover effect color */
+    transform: scaleX(0); /* Initial state: invisible */
+    transform-origin: left; /* Scale from left to right */
+    transition: transform 0.2s ease; /* Apply smooth transition */
+  }
+.footer-line:hover::after {
+    transform: scaleX(1); /* Hover effect: visible */
+}
+.social-link{
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+}
+.img-space{
+    padding: 0px 24px 0px 24px;
+}
+.final{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.final p, .final button{
+    display: inline-block;
+}
+.para-final{
+    color: #FFF;
+    /* margin: 0px 0px 0px 140px; */
+    margin-left: 140px;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.para-final:hover{
+    border: 2px rgb(44, 44, 240) solid;
+}
+.final-btn{
+    background-color: transparent;
+    color: #FFF;
+    border: none;
+    /* margin: 5px 50px 120px 840px; */
+    margin-right: 80px;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.final-btn:hover{
+    border: 2px rgb(44, 44, 240) solid;
+}
